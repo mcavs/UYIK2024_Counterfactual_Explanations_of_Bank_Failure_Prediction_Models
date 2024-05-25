@@ -19,11 +19,15 @@ Counterfactual explanations offer valuable insights into the reasoning behind a 
 - `data/`: This directory contains datasets used for training and evaluation.
 - `model/`: Implementation of bank failure prediction models.
 - `counterfactual_for_all_models/`: Codes for generating counterfactual explanations.
+- `activeData.Rda`: R data file containing active data.
+- `failureData.Rda`: R data file containing failure data.
+- `libraries.R`: Script for loading required libraries.
+
 
 ## Getting Started  <a name="getting-started"></a>
 
 1. Clone this repository to your local machine.
-2. Download the packages in the [libraries](https://github.com/seymagnn/UYIK2024_Counterfactual_Explanations_of_Bank_Failure_Prediction_Models/blob/main/libraries.R) script.
-3. Complete data manipulation operations by pulling metrics from the [arranged data](https://github.com/seymagnn/UYIK2024_Counterfactual_Explanations_of_Bank_Failure_Prediction_Models/blob/main/data/arranging_data.R) script.
-4. Splitting data into two subsets in [model partition](https://github.com/seymagnn/UYIK2024_Counterfactual_Explanations_of_Bank_Failure_Prediction_Models/blob/main/model/model_partition.R) script.
+2. Install the required packages listed in [libraries.R](https://github.com/seymagnn/UYIK2024_Counterfactual_Explanations_of_Bank_Failure_Prediction_Models/blob/main/libraries.R) script.
+3. Complete data manipulation operations by pulling metrics from the [arranging_data.R](https://github.com/seymagnn/UYIK2024_Counterfactual_Explanations_of_Bank_Failure_Prediction_Models/blob/main/data/arranging_data.R) script.
+4. Splitting data into two subsets in [model_partition.R](https://github.com/seymagnn/UYIK2024_Counterfactual_Explanations_of_Bank_Failure_Prediction_Models/blob/main/model/model_partition.R) script.
 5. Each model is included in a weighting method. You can get all the counterfactuals which are generated in [Weighting](https://github.com/seymagnn/UYIK2024_Counterfactual_Explanations_of_Bank_Failure_Prediction_Models/tree/main/counterfactuals_for_all_models/weighting) scripts.
